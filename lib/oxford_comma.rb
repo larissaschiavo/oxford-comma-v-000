@@ -13,6 +13,7 @@ def oxford_comma(array)
       else
         ans << item + ", "
       end
-  
+    end
+  end 
   return ans
 end
