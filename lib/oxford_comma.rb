@@ -1,5 +1,6 @@
 def oxford_comma(array)
+  ans = ""
   if array.length == 1
-    return array.to_s
+    ans << array[0]
   end 
 end
